@@ -8,6 +8,7 @@ public class Lion extends Zoo {
         this.numberOfChildren = numberOfChildren;
     }
 
+    @Override
     public void makeNoise() {
         System.out.println("De leeuw brult");
     }

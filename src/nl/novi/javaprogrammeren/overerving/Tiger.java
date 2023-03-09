@@ -8,6 +8,7 @@ public class Tiger extends Zoo {
         this.numberOfStripes = numberOfStripes;
     }
 
+    @Override
     public void makeNoise() {
         System.out.println("De tijger brult");
     }

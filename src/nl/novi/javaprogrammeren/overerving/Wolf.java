@@ -8,6 +8,11 @@ public class Wolf extends Zoo {
         this.pactName = pactName;
     }
 
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
     public void makeNoise() {
         System.out.println("De wolf huilt");
     }

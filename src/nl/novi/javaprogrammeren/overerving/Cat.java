@@ -16,6 +16,11 @@ public class Cat extends Animal {
         return favoriteFoodBrand;
     }
 
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
     public void makeNoise() {
         System.out.println("De kat miauwt");
     }
